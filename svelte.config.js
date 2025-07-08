@@ -5,6 +5,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			fallback: '404.html',
+			pages: 'build',
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/slides-server',
